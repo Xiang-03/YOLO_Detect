@@ -1,0 +1,48 @@
+
+#train: E:/A_xianghang/data_yolo_copy\YOLODataset/images/train/
+#val: E:/A_xianghang/data_yolo_copy\YOLODataset/images/val/
+#
+#nc: 8
+#
+#names: ['0', '1', '2', '3', '4', '5', '16', '19']
+
+path: E:/A_xianghang/data_yolo_copy/YOLODataset  # dataset root dir
+
+train: images/train/
+val: images/val/
+
+nc: 30
+channels: 3  # RGB 图像
+
+#names: ['0', '1', '2', '3', '4', '5', '16', '19']
+names:
+  0: person
+  1: face
+  2: car
+  3: bicycle
+  4: motorcycle
+  5: airplane
+  6: helicopter
+  7: F1 car
+  8: hot air balloon
+  9: kite
+  10: parachute
+  11: snake
+  12: ball
+  13: surfboard
+  14: boat
+  15: cat
+  16: dog
+  17: rabbit
+  18: panda
+  19: bird
+  20: giraffe
+  21: penguin
+  22: horse
+  23: sheep
+  24: cow
+  25: elephant
+  26: mouse
+  27: tiger
+  28: lion
+  29: bear
