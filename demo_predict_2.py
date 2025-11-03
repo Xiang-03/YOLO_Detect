@@ -10,8 +10,8 @@ custom_data = CustomDataset(
     imgsz=640,
     augment=True,  # 启用增强
     hyp=model.args,  # 使用模型的超参数
-    rect=False,     # 确保使用方形图像
-    stride=32       # 模型步长
+    rect=False,  # 确保使用方形图像
+    stride=32,  # 模型步长
 )
 
 # 3. 训练模型
@@ -20,7 +20,7 @@ model.train(
     epochs=100,
     imgsz=640,
     batch=16,
-    optimizer='AdamW',
+    optimizer="AdamW",
     lr0=0.001,
     augment=True,  # 确保启用增强
     # 其他训练参数...
