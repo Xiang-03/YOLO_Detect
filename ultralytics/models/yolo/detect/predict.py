@@ -1,4 +1,4 @@
-    # Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
 
 from ultralytics.engine.predictor import BasePredictor
 from ultralytics.engine.results import Results
